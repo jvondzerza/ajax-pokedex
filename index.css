@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+html {
+    width: 100%;
+    letter-spacing: 2px;
+}
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://cdn.wallpapersafari.com/2/17/iI29aH.png");
+    background-size: ;
+}
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+}
+button {
+    letter-spacing: 2px;
+    width: 100px;
+}
+#poke-logo {
+    margin-top: 10px;
+    margin-left: 20px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 270px;
+    height: 100px;
+}
+#pokedex-page {
+    margin: 20px 0 0 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: red;
+    width: 70%;
+    height: 70%;
+    border-radius: 0 30px 45px 7px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: papayawhip;
+}
+#poke-info {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin-top: 6%;
+    background-color: papayawhip;
+}
+#id, #name {
+    width: 45%;
+    text-align: center;
+}
+#poke-figure {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+    height: 50%;
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2fb2821a-1406-4a1d-9b04-6668f278e944/d83htw0-ec490c3b-f7dd-4570-a698-8404a8a12f99.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzJmYjI4MjFhLTE0MDYtNGExZC05YjA0LTY2NjhmMjc4ZTk0NFwvZDgzaHR3MC1lYzQ5MGMzYi1mN2RkLTQ1NzAtYTY5OC04NDA0YThhMTJmOTkucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.zFeU6uxxutMPR_qMMoP5MOM8N4EqbYuZWc_naTh8Rpw);
+    background-size: cover;
+    border-radius: 0 0 10px 10px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    margin-top: 5%;
+    margin-right: 5%;
+}
+#poke-img {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#moves-list {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 45%;
+    text-align: center;
+    margin-bottom: 8%;
+}
+#evo-div {
+    display: table;
+    text-align: center;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    width: 50%;
+    margin-right: 5%;
+    margin-bottom: 4%;
+}
+#evo-row {
+    display: table-row;
+}
+.evo-fig {
+    display: table-cell;
+}
+.evo-img {
+    background-color: lightseagreen;
+    border-radius: 50%;
+    margin: 0;
+}
+#nav {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.nav {
+    margin: 0 auto;
+}

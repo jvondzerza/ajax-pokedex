@@ -6,23 +6,31 @@
     <link href="index.css" rel="stylesheet">
 </head>
 <body>
+<img id="poke-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/2560px-International_Pok%C3%A9mon_logo.svg.png" alt="Pokemon logo"/>
 <div id="pokedex-page">
     <div id="poke-div">
-        <p id="id"></p>
-        <p id="name"></p>
+        <div id="poke-info">
+            <h1 id="id"></h1>
+            <h2 id="name"></h2>
+        </div>
         <figure id="poke-figure">
             <img id="poke-img" src="" alt="pokemon"/>
         </figure>
-        <ul id="moves"></ul>
+        <div id="moves-list">
+            <h3>moves:</h3>
+            <div id="moves"></div>
+        </div>
     </div>
-    <input type="text" id="pokemon-search" placeholder="...">
+    <div id="evo-div">
+        <div id="evo-row"></div>
+    </div>
+    <input type="text" id="poke-search" placeholder="...">
     <button id="search-button">search</button>
+    <footer id="nav">
+        <button class="nav" id="prev">previous</button>
+        <button class="nav" id="next">next</button>
+    </footer>
 </div>
-
-<footer id="nav">
-    <button id="prev">previous</button>
-    <button id="next">next</button>
-</footer>
 <script src="script.js"></script>
 </body>
 </html>
