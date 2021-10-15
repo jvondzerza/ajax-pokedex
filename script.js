@@ -88,6 +88,7 @@
         moves.innerHTML = "";
         randomMoves.forEach(randomMove => {
             let move = document.createElement("p");
+            move.setAttribute("class", "move");
             move.innerHTML = randomMove;
             moves.appendChild(move);
         })
