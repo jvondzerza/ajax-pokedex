@@ -102,7 +102,6 @@
                     .then(response => response.json())
                     .then(data => {
                         let evolutionDetails = data.chain;
-                        console.log(evolutionDetails);
                         function deetsToDom(pixelSize) {
                             evoDiv.innerHTML = "";
                             evolutions.forEach(evolution => {
@@ -112,6 +111,7 @@
                                 fetch(`https://pokeapi.co/api/v2/pokemon/${evolution}`)
                                     .then(response => response.json())
                                     .then(data => {
+                                        console.log(data);
                                         let figure = document.createElement("figure");
                                         let evolutionChainImg = document.createElement("img");
                                         figure.setAttribute("class", "evo-fig");
@@ -136,6 +136,7 @@
                                     evolutions[i+1] = evolutionDetails.evolves_to[i].species.name;
                                     evolutions[i+2] = evolutionDetails.evolves_to[i].evolves_to[i].species.name;
                                 }
+                                console.log(evolutions);
                                 deetsToDom("100px");
                             }
                         } else if (evolutionDetails.evolves_to.length > 1) {
